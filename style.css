@@ -3,6 +3,11 @@
 body{
     background: rgb(228, 147, 142);
     font-family: 'Fredoka', 'Sans-serif';
+    overflow: hidden;
+}
+
+a {
+    color: #000;
 }
 
 a:link, a:visited, a:active {
@@ -47,7 +52,7 @@ button {
 .footer {
     display: flex;
     justify-content: center;
-    margin-top: 30%;
+    margin-top: 10%;
 }
 
 #outputClass {
