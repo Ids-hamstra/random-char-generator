@@ -9,9 +9,16 @@ a:link, a:visited, a:active {
     text-decoration: none;
 }
 
+.randomizeSpecButton {
+    background-color:rgb(9, 235, 9);
+}
+
+
 button {
     font-family: 'Fredoka', 'Sans-serif';
+    background-color: rgb(243, 247, 6);
 }
+
 
 
 .randomClassGen { 
@@ -43,5 +50,15 @@ button {
     margin-top: 30%;
 }
 
+#outputClass {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+#outputSpec {
+    display: flex;
+    justify-content: center;
+}
 
 
