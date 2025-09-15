@@ -5,6 +5,10 @@ body{
     font-family: 'Fredoka', 'Sans-serif';
 }
 
+a:link, a:visited, a:active {
+    text-decoration: none;
+}
+
 button {
     font-family: 'Fredoka', 'Sans-serif';
 }
@@ -24,13 +28,19 @@ button {
     
 }
 
-.randomizeClassButton, .randomizeSpecButton,.imgLogo:hover {
+.randomizeClassButton, .randomizeSpecButton,.imgLogo, a:hover {
     cursor: pointer;
 }
 
 .randomizeClassButton, .randomizeSpecButton {
     border-radius: 10%;
     
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 30%;
 }
 
 
