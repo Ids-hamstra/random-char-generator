@@ -1,7 +1,7 @@
 
 
 
-const CHARACTERS = ["Warrior", "Paladin", "Mage", "Shaman", "Monk",
+const CHARACTERS = ["Warrior", "Paladin","Druid", "Mage", "Shaman", "Monk",
      "Evoker", "Hunter", "Rogue", "Demon Hunter", "Priest", "Warlock",
     "Death Knight"];
     
@@ -10,6 +10,7 @@ const CHARACTERS = ["Warrior", "Paladin", "Mage", "Shaman", "Monk",
         Warrior: ["Arms", "Fury", "Paladin"],
         Paladin: ["Holy", "Protection", "Retribution"],
         Mage: ["Frost", "Arcane", "Fire"],
+        Druid: ["Feral", "Boomkin", "Restoration", "Guardian"],
         Shaman: ["Elemental", "Enhancement", "Restoration"],
         Monk: ["Brewmaster", "Windwalker", "Mistweaver"],
         Evoker: ["Devestation", "Preservation", "Augmentation"],
@@ -39,6 +40,3 @@ const CHARACTERS = ["Warrior", "Paladin", "Mage", "Shaman", "Monk",
     //     return RESULT
     // }
     
-
-
-
